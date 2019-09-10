@@ -8,6 +8,12 @@ Developer @You in DTLA
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/*
+TEXT STYLES
+*/
+
 h2 {
     color: #FF8A23;
     font-weight: 800;
@@ -16,6 +22,25 @@ h2 {
     padding-bottom: 10px;
     text-align: center;
 }
+
+h3{
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #3A3A3A;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FF8A23; 
+}
+
+/*
+ID STYLES
+*/
+
 #home, #mission, footer {
     background-color: #3A3A3A;
     width: 100%;
@@ -23,16 +48,55 @@ h2 {
     display: inline-block;
     text-align: center;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.teamheader  {
-	text-align:center!important;
-	 display: flex!important;
-  justify-content: center!important;
-  align-items: center!important;
+#about {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+#mission, footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#team {
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#team h2 p {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;  
+  text-align: center;
+  margin: 0 auto;
+  float: center;
+  width: 100%;
+}
+
+
+
+/*
+CLASS STYLES
+*/
 
 
 .footer, .small {
@@ -47,56 +111,17 @@ h2 {
 	color: #FF8A23;
 }
 
-#mission, footer {
-	padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 
 .missionbody {
 	color: white;
 }
 
-
-#about {
-    background-color: #EFEFEF;
-    width: 100%;
-    height: 100%;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-
-}
-
-#team {
-	background-color: #EFEFEF;
-    width: 100%;
-    height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-#team h2 {
-	  text-align: right; 
-    display: inline;    
+.img-thumbnail {
+  border: none;
+  border-radius: none;
+  border-width: 0px;
 }
 
 
 
-h3{
-	padding-top: 10px;
-	font-size: 25px;
-	font-weight: 800;
-	color: #3A3A3A;
-}
-
-h4 {
-	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 600;
-	color: #FF8A23; 
-}
